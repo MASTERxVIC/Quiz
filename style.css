@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(to bottom, #cf98ff, #76118c);
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f1f1f1; /* Changed container background color */
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px; /* Increased padding */
+    border-radius: 30px; /* Increased border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px; /* Increased font size */
+    color: #76118c;
+    margin-bottom: 40px; /* Increased margin */
+}
+
+.question {
+    margin-bottom: 30px; /* Adjusted margin */
+}
+
+.question h3 {
+    font-size: 22px; /* Increased font size */
+    color:#76118c;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+input[type="radio"] {
+    margin-right: 15px; /* Adjusted margin */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 20px 0; /* Increased padding */
+    font-size: 20px; /* Decreased font size */
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-image 0.3s ease, transform 0.2s ease; /* Updated transition properties */
+    background-image: linear-gradient(to bottom, #cf98ff, #76118c); /* Added gradient background */
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, #cf98ff, #76118c); /* Updated gradient color on hover */
+    transform: scale(1.05); /* Added scaling effect on hover */
+}
+
+
+#results {
+    text-align: center;
+    margin-top: 30px; /* Adjusted margin */
+    font-size: 28px; /* Increased font size */
+    color: #76118c;
+}
